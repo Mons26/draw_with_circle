@@ -8,7 +8,7 @@ pub fn main()
     let dir: String = String::from("./paths/");
     let mut file: String = String::from("default.txt");
 
-    println!("use default drawing? (yes or no)");
+    println!("use default pahts? (yes or no)");
     let mut option: String = String::new();
     std::io::stdin().read_line(&mut option).expect("??????");
     option.pop(); option.pop(); 
