@@ -8,7 +8,7 @@ pub fn main()
     let dir: String = String::from("./paths/");
     let mut file: String = String::from("default.txt");
 
-    println!("use default pahts? (yes or no)");
+    println!("use default paths? (yes or no)");
     let mut option: String = String::new();
     std::io::stdin().read_line(&mut option).expect("??????");
     option.pop(); option.pop(); 
@@ -18,7 +18,7 @@ pub fn main()
     if option.eq("no")
     {
         file.clear();
-        println!("enter your file name (in target/debug/paths and must be .txt format)");
+        println!("enter your file name (in paths and must be .txt format)");
         std::io::stdin().read_line(&mut file).expect("invalid file");
         file.pop(); file.pop();
         assert!(file.contains(".txt"));
