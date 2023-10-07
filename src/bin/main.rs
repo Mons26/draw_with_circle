@@ -5,7 +5,7 @@ use draw_with_circles::dwc::*;
 
 pub fn main()
 {
-    let dir: String = String::from("./target/debug/paths/");
+    let dir: String = String::from("./paths/");
     let mut file: String = String::from("default.txt");
 
     println!("use default drawing? (yes or no)");
