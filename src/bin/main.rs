@@ -29,7 +29,7 @@ pub fn main()
     println!("{}", path);
 
     let mut app: App = App::new("Draw with circles", 1000, 800);
-    app.init_renderer(0.4, 2.0);
+    app.init_renderer(0.8, 1.0);
     app.init(path, 1.0 / 900.0, 880, 60);
     app.run();
 }
