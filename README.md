@@ -1,2 +1,2 @@
 # draw_with_circle
-A program to draw specifed paths with epicycles
+A program to draw specified paths with epicycles
